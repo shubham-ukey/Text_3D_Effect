@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #000;
+        }
+        h2{
+            font-size: 6em;
+            font-weight: 500;
+            color: #222;
+            letter-spacing: 5px;
+            cursor: pointer;
+        }
+        h2 span{
+            transition: 0.5s;
+        }
+        h2:hover span:nth-child(1){
+            margin-right: 10px;
+        }
+        h2:hover span:nth-child(1):after{
+            content: "'";
+        }
+        h2:hover span:nth-child(1){
+            margin-left: 4cqi;
+        }
+        h2:hover span{
+            color: #fff;
+            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        }
+    </style>
+</head>
+<body>
+    <h2><span>I</span>M<span>POSSIBLE</span></h2>
+</body>
+</html>
